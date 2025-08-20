@@ -24,7 +24,7 @@ const config = {
   },
   "header": {
     "tag": "CASE STUDY",
-    "title": "How We Helped First-Time Buyers Win Their Dream Home for Just $5K Over Ask When Others Couldn't Compete with Conditions",
+    "title": "How We Helped First-Time Buyers Win Their Dream Home When Others Couldn't Compete with Conditions",
     "subheadline": "Purchased in a <strong>High-Demand Area</strong> With Strong Terms—Now <a href=\"#\">Generating Top-Dollar Rent</a> in a Tight Market"
   },
   "mainBox": {
