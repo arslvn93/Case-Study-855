@@ -1,20 +1,9 @@
-// =================================================================================================
-// PAGE CONFIGURATION OBJECT
-// This file defines all the dynamic content for the case study page.
-// The `renderer.js` file reads this object to build the HTML.
-// To change text, images, or other content, edit the values in this file.
-// =_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_
 const config = {
   "globals": {
-    "companyName": "Rise Realty Group",
-    "mainCTAButtonText": "Book A Discovery Call",
-    "mainCTAButtonURL": "#contact",
-    "primaryColor": "#e3c379",
-    "accentColor": "#d9c6a2",
     "agents": [
       {
-        "name": "Casey Pilatzke",
-        "imageSrc": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/22c01a4b-310d-4097-a0f7-5e664f5b7ed5/028A4024.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TFKGX5DV%2F20250814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250814T151415Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIATqaIOTi2Qdcck89eEf1b7PH7WlDcxQLBSHc%2FaTEy3%2FAiBeXRiKguxvzp%2FExiGF2ZkuKfh5SlLrmGKV8HoBQUozeSr%2FAwhHEAAaDDYzNzQyMzE4MzgwNSIMfTwTID6S5O9EX%2FBSKtwDNG16CODbeSt6atF%2FsIj8zgnlptjJNYJnM8r58og1u3wiL5gWMcD7oJwlK9xpDOC1xy3nFsXmBzC7kZ4dAM%2BqeH5xZ%2BTx8gxobjKn%2BPAt8uwvf7V7fhRRScdUvpYojzukHj0%2F71AcvF3pQlKWO3lyRBi%2BxKJudPEMT1A%2Fm2ghPibpr1QENI6R1r9JCpxi57AA4ggjf897rLjVL7ZJF93RUhDdxx1BZWac32q%2B22VpWYjy6yvDxhBygRrSoWnk6iW0paLfJvJXxchiMjho8FgbimIisdq83Pru5ju4ChS%2FPWObHACX2P6yUMiHD0uV%2F1xPKZUusr418bjDNwnyneUJeu98SqUM37DOAlK48x0Hh%2FAS5XrO1FdPzkeE5pwQ2qVgDFebKjOvKq1i2Iz6S16R88%2B0VzbmWCGMTKX4onE%2B5xJ7O60k59PyOC92VYaMj5oR1Hcw%2FHCpj1BMALhYe4QKehOSg62dLbNSDhXh26zvwcm2bSI5mCBt%2F2s1d6HSYkKxND6fFBh2C1myqJ9reZcTBWwsDQRjAd5T3H%2FSj53Ll8X12GjF%2Fled%2BKlQx2muoWxqq7LRSUhp7yiVBlM507BYaHvI7kCKxQJW9pC5JEOgAkANl7W2yZu3%2B7Tw9sQwiM%2F3xAY6pgF9JQ2TQ2sum%2BERaHzII7dZw9ePKPbjurCLf8tSXAA61qpdYflQmxc%2BOvqhqRw7D6JkAuHXeo2KVq6NpTuwR6IdIz%2FVDo8h2mwT2wXCKRyL6p31UJ6BQRqBuChzw8HHqnC%2BmgSa6eESr13k1NfaWfgWOq%2FGoy8CO2j8fJY2nPnEu38l95rK2J1XzvqGN7i%2FdKqfTS9wWyKrHD6gPRpCWRwvofAT2g4E&X-Amz-Signature=43dd91c08ec336839d30009711dae46d30f4911fe6b73aa530bcead664c085e3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "name": "Ashley Veldkamp",
+        "imageSrc": "https://theriserealtygroup.ca/wp-content/uploads/2024/02/028A4024-1-1.png",
         "contactDetails": [
           {
             "type": "email",
@@ -26,7 +15,12 @@ const config = {
           }
         ]
       }
-    ]
+    ],
+    "companyName": "The Rise Realty Group",
+    "mainCTAButtonText": "Book A Discovery Call",
+    "mainCTAButtonURL": "https://calendly.com/ashley-theriserealtygroup/discoverycall",
+    "primaryColor": "#b5b8b2",
+    "accentColor": "#d9c6a2"
   },
   "header": {
     "tag": "CASE STUDY",
@@ -64,7 +58,8 @@ const config = {
         "Every property they loved was either overpriced, needed major repairs, or was located in neighborhoods that didn't feel safe for their young family",
         "As first-time buyers, they felt overwhelmed by the complexity of the market and unsure about making such a massive financial commitment",
         "They had nearly given up hope, taking a break from house hunting because the process had become so discouraging"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -78,7 +73,8 @@ const config = {
       ],
       "testimonial": {
         "quote": "\"\"Casey didn't just help us buy a house – she guided us toward homeownership and empowered us every step of the way. After searching for over a year with no success, she found us the perfect home almost immediately when we started working together again. We finally have a safe place for our family that didn't require us to compromise on our needs or overpay in this crazy market.\"\"<br><span>— Satisfied Client</span>"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -88,7 +84,8 @@ const config = {
       ],
       "image": {
         "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -100,7 +97,8 @@ const config = {
         "Successfully negotiated seller remedies for plumbing issues discovered during inspection",
         "Closed in just 6 weeks with zero stress or surprises",
         "Found the perfect move-in ready home that checked every single box on their wish list"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -109,7 +107,8 @@ const config = {
         "Price drops often signal hidden opportunities – this property dropped $65K from its original listing, creating exceptional value for informed buyers",
         "Keeping conditions in competitive situations IS possible with the right agent relationships and negotiation strategy",
         "Taking breaks during your search can be strategic – sometimes the perfect property appears when you're ready to approach the market with fresh perspective"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "ctaBanner",
@@ -121,24 +120,24 @@ const config = {
     }
   ],
   "footer": {
-    "logo": {
-      "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/22c01a4b-310d-4097-a0f7-5e664f5b7ed5/028A4024.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TFKGX5DV%2F20250814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250814T151415Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIATqaIOTi2Qdcck89eEf1b7PH7WlDcxQLBSHc%2FaTEy3%2FAiBeXRiKguxvzp%2FExiGF2ZkuKfh5SlLrmGKV8HoBQUozeSr%2FAwhHEAAaDDYzNzQyMzE4MzgwNSIMfTwTID6S5O9EX%2FBSKtwDNG16CODbeSt6atF%2FsIj8zgnlptjJNYJnM8r58og1u3wiL5gWMcD7oJwlK9xpDOC1xy3nFsXmBzC7kZ4dAM%2BqeH5xZ%2BTx8gxobjKn%2BPAt8uwvf7V7fhRRScdUvpYojzukHj0%2F71AcvF3pQlKWO3lyRBi%2BxKJudPEMT1A%2Fm2ghPibpr1QENI6R1r9JCpxi57AA4ggjf897rLjVL7ZJF93RUhDdxx1BZWac32q%2B22VpWYjy6yvDxhBygRrSoWnk6iW0paLfJvJXxchiMjho8FgbimIisdq83Pru5ju4ChS%2FPWObHACX2P6yUMiHD0uV%2F1xPKZUusr418bjDNwnyneUJeu98SqUM37DOAlK48x0Hh%2FAS5XrO1FdPzkeE5pwQ2qVgDFebKjOvKq1i2Iz6S16R88%2B0VzbmWCGMTKX4onE%2B5xJ7O60k59PyOC92VYaMj5oR1Hcw%2FHCpj1BMALhYe4QKehOSg62dLbNSDhXh26zvwcm2bSI5mCBt%2F2s1d6HSYkKxND6fFBh2C1myqJ9reZcTBWwsDQRjAd5T3H%2FSj53Ll8X12GjF%2Fled%2BKlQx2muoWxqq7LRSUhp7yiVBlM507BYaHvI7kCKxQJW9pC5JEOgAkANl7W2yZu3%2B7Tw9sQwiM%2F3xAY6pgF9JQ2TQ2sum%2BERaHzII7dZw9ePKPbjurCLf8tSXAA61qpdYflQmxc%2BOvqhqRw7D6JkAuHXeo2KVq6NpTuwR6IdIz%2FVDo8h2mwT2wXCKRyL6p31UJ6BQRqBuChzw8HHqnC%2BmgSa6eESr13k1NfaWfgWOq%2FGoy8CO2j8fJY2nPnEu38l95rK2J1XzvqGN7i%2FdKqfTS9wWyKrHD6gPRpCWRwvofAT2g4E&X-Amz-Signature=43dd91c08ec336839d30009711dae46d30f4911fe6b73aa530bcead664c085e3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-    },
-    "brokerageLabel": "Brokerage:",
-    "brokerageName": "Real Broker LTD",
-    "brokerageAddress": "218 Brant Avenue\nBrantford ON N3T 3H9",
-    "secondaryLogo": {
-      "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/9e0cb426-7be8-42ce-9e46-be8012159b0b/RRG_Grey_CMYK.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TFKGX5DV%2F20250814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250814T151415Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIATqaIOTi2Qdcck89eEf1b7PH7WlDcxQLBSHc%2FaTEy3%2FAiBeXRiKguxvzp%2FExiGF2ZkuKfh5SlLrmGKV8HoBQUozeSr%2FAwhHEAAaDDYzNzQyMzE4MzgwNSIMfTwTID6S5O9EX%2FBSKtwDNG16CODbeSt6atF%2FsIj8zgnlptjJNYJnM8r58og1u3wiL5gWMcD7oJwlK9xpDOC1xy3nFsXmBzC7kZ4dAM%2BqeH5xZ%2BTx8gxobjKn%2BPAt8uwvf7V7fhRRScdUvpYojzukHj0%2F71AcvF3pQlKWO3lyRBi%2BxKJudPEMT1A%2Fm2ghPibpr1QENI6R1r9JCpxi57AA4ggjf897rLjVL7ZJF93RUhDdxx1BZWac32q%2B22VpWYjy6yvDxhBygRrSoWnk6iW0paLfJvJXxchiMjho8FgbimIisdq83Pru5ju4ChS%2FPWObHACX2P6yUMiHD0uV%2F1xPKZUusr418bjDNwnyneUJeu98SqUM37DOAlK48x0Hh%2FAS5XrO1FdPzkeE5pwQ2qVgDFebKjOvKq1i2Iz6S16R88%2B0VzbmWCGMTKX4onE%2B5xJ7O60k59PyOC92VYaMj5oR1Hcw%2FHCpj1BMALhYe4QKehOSg62dLbNSDhXh26zvwcm2bSI5mCBt%2F2s1d6HSYkKxND6fFBh2C1myqJ9reZcTBWwsDQRjAd5T3H%2FSj53Ll8X12GjF%2Fled%2BKlQx2muoWxqq7LRSUhp7yiVBlM507BYaHvI7kCKxQJW9pC5JEOgAkANl7W2yZu3%2B7Tw9sQwiM%2F3xAY6pgF9JQ2TQ2sum%2BERaHzII7dZw9ePKPbjurCLf8tSXAA61qpdYflQmxc%2BOvqhqRw7D6JkAuHXeo2KVq6NpTuwR6IdIz%2FVDo8h2mwT2wXCKRyL6p31UJ6BQRqBuChzw8HHqnC%2BmgSa6eESr13k1NfaWfgWOq%2FGoy8CO2j8fJY2nPnEu38l95rK2J1XzvqGN7i%2FdKqfTS9wWyKrHD6gPRpCWRwvofAT2g4E&X-Amz-Signature=1aa4bb7bd72da74557fe2a727ee7b52ac9500f850dc85f9764c04f16c7c42b5d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-    },
-    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary.",
     "privacyPolicy": {
       "text": "Privacy Policy",
       "href": "https://theriserealtygroup.ca/"
-    }
-  }
+    },
+    "logo": {
+      "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/22c01a4b-310d-4097-a0f7-5e664f5b7ed5/028A4024.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TFKGX5DV%2F20250814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250814T151415Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIATqaIOTi2Qdcck89eEf1b7PH7WlDcxQLBSHc%2FaTEy3%2FAiBeXRiKguxvzp%2FExiGF2ZkuKfh5SlLrmGKV8HoBQUozeSr%2FAwhHEAAaDDYzNzQyMzE4MzgwNSIMfTwTID6S5O9EX%2FBSKtwDNG16CODbeSt6atF%2FsIj8zgnlptjJNYJnM8r58og1u3wiL5gWMcD7oJwlK9xpDOC1xy3nFsXmBzC7kZ4dAM%2BqeH5xZ%2BTx8gxobjKn%2BPAt8uwvf7V7fhRRScdUvpYojzukHj0%2F71AcvF3pQlKWO3lyRBi%2BxKJudPEMT1A%2Fm2ghPibpr1QENI6R1r9JCpxi57AA4ggjf897rLjVL7ZJF93RUhDdxx1BZWac32q%2B22VpWYjy6yvDxhBygRrSoWnk6iW0paLfJvJXxchiMjho8FgbimIisdq83Pru5ju4ChS%2FPWObHACX2P6yUMiHD0uV%2F1xPKZUusr418bjDNwnyneUJeu98SqUM37DOAlK48x0Hh%2FAS5XrO1FdPzkeE5pwQ2qVgDFebKjOvKq1i2Iz6S16R88%2B0VzbmWCGMTKX4onE%2B5xJ7O60k59PyOC92VYaMj5oR1Hcw%2FHCpj1BMALhYe4QKehOSg62dLbNSDhXh26zvwcm2bSI5mCBt%2F2s1d6HSYkKxND6fFBh2C1myqJ9reZcTBWwsDQRjAd5T3H%2FSj53Ll8X12GjF%2Fled%2BKlQx2muoWxqq7LRSUhp7yiVBlM507BYaHvI7kCKxQJW9pC5JEOgAkANl7W2yZu3%2B7Tw9sQwiM%2F3xAY6pgF9JQ2TQ2sum%2BERaHzII7dZw9ePKPbjurCLf8tSXAA61qpdYflQmxc%2BOvqhqRw7D6JkAuHXeo2KVq6NpTuwR6IdIz%2FVDo8h2mwT2wXCKRyL6p31UJ6BQRqBuChzw8HHqnC%2BmgSa6eESr13k1NfaWfgWOq%2FGoy8CO2j8fJY2nPnEu38l95rK2J1XzvqGN7i%2FdKqfTS9wWyKrHD6gPRpCWRwvofAT2g4E&X-Amz-Signature=43dd91c08ec336839d30009711dae46d30f4911fe6b73aa530bcead664c085e3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    },
+    "secondaryLogo": {
+      "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/9e0cb426-7be8-42ce-9e46-be8012159b0b/RRG_Grey_CMYK.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TFKGX5DV%2F20250814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250814T151415Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIATqaIOTi2Qdcck89eEf1b7PH7WlDcxQLBSHc%2FaTEy3%2FAiBeXRiKguxvzp%2FExiGF2ZkuKfh5SlLrmGKV8HoBQUozeSr%2FAwhHEAAaDDYzNzQyMzE4MzgwNSIMfTwTID6S5O9EX%2FBSKtwDNG16CODbeSt6atF%2FsIj8zgnlptjJNYJnM8r58og1u3wiL5gWMcD7oJwlK9xpDOC1xy3nFsXmBzC7kZ4dAM%2BqeH5xZ%2BTx8gxobjKn%2BPAt8uwvf7V7fhRRScdUvpYojzukHj0%2F71AcvF3pQlKWO3lyRBi%2BxKJudPEMT1A%2Fm2ghPibpr1QENI6R1r9JCpxi57AA4ggjf897rLjVL7ZJF93RUhDdxx1BZWac32q%2B22VpWYjy6yvDxhBygRrSoWnk6iW0paLfJvJXxchiMjho8FgbimIisdq83Pru5ju4ChS%2FPWObHACX2P6yUMiHD0uV%2F1xPKZUusr418bjDNwnyneUJeu98SqUM37DOAlK48x0Hh%2FAS5XrO1FdPzkeE5pwQ2qVgDFebKjOvKq1i2Iz6S16R88%2B0VzbmWCGMTKX4onE%2B5xJ7O60k59PyOC92VYaMj5oR1Hcw%2FHCpj1BMALhYe4QKehOSg62dLbNSDhXh26zvwcm2bSI5mCBt%2F2s1d6HSYkKxND6fFBh2C1myqJ9reZcTBWwsDQRjAd5T3H%2FSj53Ll8X12GjF%2Fled%2BKlQx2muoWxqq7LRSUhp7yiVBlM507BYaHvI7kCKxQJW9pC5JEOgAkANl7W2yZu3%2B7Tw9sQwiM%2F3xAY6pgF9JQ2TQ2sum%2BERaHzII7dZw9ePKPbjurCLf8tSXAA61qpdYflQmxc%2BOvqhqRw7D6JkAuHXeo2KVq6NpTuwR6IdIz%2FVDo8h2mwT2wXCKRyL6p31UJ6BQRqBuChzw8HHqnC%2BmgSa6eESr13k1NfaWfgWOq%2FGoy8CO2j8fJY2nPnEu38l95rK2J1XzvqGN7i%2FdKqfTS9wWyKrHD6gPRpCWRwvofAT2g4E&X-Amz-Signature=1aa4bb7bd72da74557fe2a727ee7b52ac9500f850dc85f9764c04f16c7c42b5d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    },
+    "brokerageLabel": "Brokerage:",
+    "brokerageName": "Real Broker LTD",
+    "brokerageAddress": "218 Brant AvenueBrantford ON N3T 3H9",
+    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary."
+  },
+  "githubRepo": "https://github.com/arslvn93/Case-Study-855"
 };
 
-// Export for Node.js environment (if applicable) or set for browser
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = config;
 } else if (typeof window !== 'undefined') {
