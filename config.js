@@ -75,7 +75,7 @@ const config = {
         "Provided continuous education and support to empower them as first-time buyers, not just complete a transaction"
       ],
       "testimonial": {
-        "quote": "\"Casey didn't just help us buy a house – she guided us toward homeownership and empowered us every step of the way. After searching for over a year with no success, she found us the perfect home almost immediately when we started working together again. We finally have a safe place for our family that didn't require us to compromise on our needs or overpay in this crazy market.\"\"<br><span>— Satisfied Client</span>"
+        "quote": "\"They didn't just help us buy a house – she guided us toward homeownership and empowered us every step of the way. After searching for over a year with no success, she found us the perfect home almost immediately when we started working together again. We finally have a safe place for our family that didn't require us to compromise on our needs or overpay in this crazy market.\"<br><span>— Satisfied Client</span>"
       },
       "listItems": []
     },
@@ -98,8 +98,8 @@ const config = {
         "<strong>PAID ONLY $5,000 OVER ASK</strong> on a property originally listed $59,000 higher",
         "<strong>SECURED $65,000 IN INSTANT EQUITY</strong> compared to the original listing price",
         "Successfully negotiated seller remedies for plumbing issues discovered during inspection",
-        "Closed in just 6 weeks with zero stress or surprises",
-        "Found the perfect move-in ready home that checked every single box on their wish list"
+        "Closed in </strong>just 6 weeks</strong> with zero stress or surprises",
+        "Found the </strong>perfect move-in ready home</strong> that checked every single box on their wish list"
       ],
       "image": {
         "src": "https://cdn.realtor.ca/listing/TS638847157211270000/reb82/highres/5/x12197755_28.jpg"
