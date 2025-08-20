@@ -138,7 +138,7 @@ const config = {
     },
     "brokerageLabel": "Brokerage:",
     "brokerageName": "Real Broker LTD",
-    "brokerageAddress": "218 Brant AvenueBrantford ON N3T 3H9",
+    "brokerageAddress": "218 Brant Avenue Brantford ON N3T 3H9",
     "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary."
   },
   "githubRepo": "https://github.com/arslvn93/Case-Study-855"
