@@ -54,10 +54,10 @@ const config = {
       "type": "standard",
       "title": "The Challenge",
       "paragraphs": [
-        "After 18 months of searching and viewing 20+ homes, they still couldn't find anything that met their needs within budget",
+        "After 18 months of searching and viewing 20+ homes, they still couldn't find anything that met their needs within budget.",
         "Every property they loved was either overpriced, needed major repairs, or was located in neighborhoods that didn't feel safe for their young family",
-        "As first-time buyers, they felt overwhelmed by the complexity of the market and unsure about making such a massive financial commitment",
-        "They had nearly given up hope, taking a break from house hunting because the process had become so discouraging"
+        "As first-time buyers, they felt </strong>overwhelmed</strong> by the complexity of the market and unsure about making such a massive financial commitment.",
+        "They had </strong>nearly given up hope</strong>, taking a break from house hunting because the process had become so discouraging and time draining for them."
       ],
       "image": {
         "src": "https://cdn.realtor.ca/listing/TS638841086603900000/reb41/highres/0/40734980_24.jpg"
@@ -68,11 +68,11 @@ const config = {
       "type": "standard",
       "title": "The Strategy",
       "paragraphs": [
-        "Leveraged my existing relationship with the listing agent to gain insider key points about the property's history and seller motivation",
-        "Identified a hidden gem that had dropped from $514K to $449K – recognizing exceptional value based on neighborhood comps and property condition",
-        "Structured a competitive offer that kept protective conditions in place, ensuring they felt secure throughout the process",
-        "Proactively addressed plumbing issues discovered during inspection by negotiating remedies with the seller",
-        "Provided continuous education and support to empower them as first-time buyers, not just complete a transaction"
+        "Leveraged my existing relationship with the listing agent to gain insider key points about the property's history and seller motivation, this gave us an advantage over similar buyers.",
+        "Identified a </strong>hidden gem that had dropped from $514K to $449K</strong> – recognizing exceptional value based on neighborhood comps and property condition.",
+        "Structured a competitive offer that kept protective conditions in place, ensuring they felt secure throughout the process.",
+        "Proactively addressed plumbing issues discovered during inspection by negotiating remedies with the seller, saving thousands in reparations needed by the buyers.",
+        "Provided continuous education and support to </strong>empower them as first-time buyers</strong>, not just complete a transaction. We didn't lose the communication and always addressed their concerns."
       ],
       "testimonial": {
         "quote": "\"They didn't just help us buy a house – she guided us toward homeownership and empowered us every step of the way. After searching for over a year with no success, she found us the perfect home almost immediately when we started working together again. We finally have a safe place for our family that didn't require us to compromise on our needs or overpay in this crazy market.\"<br><span>— Satisfied Client</span>"
@@ -95,11 +95,11 @@ const config = {
       "title": "The Results",
       "paragraphs": [
         "<strong>WON AGAINST MULTIPLE COMPETING OFFERS</strong> while keeping all protective conditions",
-        "<strong>PAID ONLY $5,000 OVER ASK</strong> on a property originally listed $59,000 higher",
-        "<strong>SECURED $65,000 IN INSTANT EQUITY</strong> compared to the original listing price",
-        "Successfully negotiated seller remedies for plumbing issues discovered during inspection",
-        "Closed in </strong>just 6 weeks</strong> with zero stress or surprises",
-        "Found the </strong>perfect move-in ready home</strong> that checked every single box on their wish list"
+        "<strong>PAID ONLY $5,000 OVER ASK</strong> on a property originally listed $59,000 higher.",
+        "<strong>SECURED $65,000 IN INSTANT EQUITY</strong> compared to the original listing price.",
+        "Successfully negotiated seller remedies for plumbing issues discovered during inspection.",
+        "Closed in </strong>just 6 weeks</strong> with zero stress or surprises.",
+        "Found the </strong>perfect move-in ready home</strong> that checked every single box on their wish list."
       ],
       "image": {
         "src": "https://cdn.realtor.ca/listing/TS638847157211270000/reb82/highres/5/x12197755_28.jpg"
@@ -110,9 +110,9 @@ const config = {
       "type": "standard",
       "title": "Conclusion",
       "paragraphs": [
-        "Price drops often signal hidden opportunities – this property dropped $65K from its original listing, creating exceptional value for informed buyers",
-        "Keeping conditions in competitive situations IS possible with the right agent relationships and negotiation strategy",
-        "Taking breaks during your search can be strategic – sometimes the perfect property appears when you're ready to approach the market with fresh perspective"
+        "Price drops often signal hidden opportunities – this property dropped $65K from its original listing, creating exceptional value for informed buyers.",
+        "Keeping conditions in competitive situations IS possible with the right agent relationships and negotiation strategy.",
+        "Taking breaks during your search can be strategic – sometimes the perfect property appears when you're ready to approach the market with fresh perspective."
       ],
       "listItems": []
     },
@@ -120,7 +120,7 @@ const config = {
       "type": "ctaBanner",
       "ctaBannerContent": {
         "subhead": "Trusted By Hundreds Of Home Buyers & Sellers",
-        "headline": "Schedule Your Buyer Strategy Session Today and discover how we'll find your dream home in this market – even if you've been searching unsuccessfully for months",
+        "headline": "Schedule Your Buyer Strategy Session Today and discover how we'll find your dream home in this market – even if you've been searching unsuccessfully for months.",
         "smallText": "Book A Discovery Call Now ➡️"
       }
     }
