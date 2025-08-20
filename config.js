@@ -59,20 +59,23 @@ const config = {
         "As first-time buyers, they felt overwhelmed by the complexity of the market and unsure about making such a massive financial commitment",
         "They had nearly given up hope, taking a break from house hunting because the process had become so discouraging"
       ],
+      "image": {
+        "src": "https://cdn.realtor.ca/listing/TS638841086603900000/reb41/highres/0/40734980_24.jpg"
+      },
       "listItems": []
     },
     {
       "type": "standard",
       "title": "The Strategy",
       "paragraphs": [
-        "Leveraged my existing relationship with the listing agent to gain insider insights about the property's history and seller motivation",
+        "Leveraged my existing relationship with the listing agent to gain insider key points about the property's history and seller motivation",
         "Identified a hidden gem that had dropped from $514K to $449K – recognizing exceptional value based on neighborhood comps and property condition",
         "Structured a competitive offer that kept protective conditions in place, ensuring they felt secure throughout the process",
         "Proactively addressed plumbing issues discovered during inspection by negotiating remedies with the seller",
         "Provided continuous education and support to empower them as first-time buyers, not just complete a transaction"
       ],
       "testimonial": {
-        "quote": "\"\"Casey didn't just help us buy a house – she guided us toward homeownership and empowered us every step of the way. After searching for over a year with no success, she found us the perfect home almost immediately when we started working together again. We finally have a safe place for our family that didn't require us to compromise on our needs or overpay in this crazy market.\"\"<br><span>— Satisfied Client</span>"
+        "quote": "\"Casey didn't just help us buy a house – she guided us toward homeownership and empowered us every step of the way. After searching for over a year with no success, she found us the perfect home almost immediately when we started working together again. We finally have a safe place for our family that didn't require us to compromise on our needs or overpay in this crazy market.\"\"<br><span>— Satisfied Client</span>"
       },
       "listItems": []
     },
@@ -83,7 +86,7 @@ const config = {
         "After meeting me at one of my listings a year and a half earlier, they reached out when they were ready to try again. They chose to work with me because of the trust we had built and my deep knowledge of the local market – they needed someone who could guide them confidently through their first home purchase."
       ],
       "image": {
-        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
+        "src": "https://cdn.realtor.ca/listing/TS638847157211270000/reb82/highres/5/x12197755_9.jpg"
       },
       "listItems": []
     },
@@ -98,6 +101,9 @@ const config = {
         "Closed in just 6 weeks with zero stress or surprises",
         "Found the perfect move-in ready home that checked every single box on their wish list"
       ],
+      "image": {
+        "src": "https://cdn.realtor.ca/listing/TS638847157211270000/reb82/highres/5/x12197755_28.jpg"
+      },
       "listItems": []
     },
     {
