@@ -11,7 +11,7 @@ const config = {
           },
           {
             "type": "phone",
-            "value": "(519) 761-0907"
+            "value": "519-209-2721"
           }
         ]
       }
