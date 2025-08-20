@@ -114,13 +114,16 @@ const config = {
         "Keeping conditions in competitive situations IS possible with the right agent relationships and negotiation strategy.",
         "Taking breaks during your search can be strategic – sometimes the perfect property appears when you're ready to approach the market with fresh perspective."
       ],
+      "image": {
+        "src": "https://theriserealtygroup.ca/wp-content/uploads/2024/10/Rise-Realty-Group-new.png"
+      },
       "listItems": []
     },
     {
       "type": "ctaBanner",
       "ctaBannerContent": {
         "subhead": "Trusted By Hundreds Of Home Buyers & Sellers",
-        "headline": "Schedule Your Buyer Strategy Session Today and discover how we'll find your dream home in this market – even if you've been searching unsuccessfully for months.",
+        "headline": "</strong>Schedule Your Buyer Strategy Session Today</strong> and discover how we'll find your dream home in this market – even if you've been searching unsuccessfully for months.",
         "smallText": "Book A Discovery Call Now ➡️"
       }
     }
