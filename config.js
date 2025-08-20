@@ -31,7 +31,7 @@ const config = {
     "summary": {
       "title": "How We Helped First-Time Buyers Win Their Dream Home for Just $5K Over Ask When Others Couldn't Compete with Conditions",
       "heroImage": {
-        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
+        "src": "https://cdn.realtor.ca/listing/TS638847157211270000/reb82/highres/5/x12197755_1.jpg"
       },
       "subTitle": "Summary",
       "paragraphs": [
