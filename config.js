@@ -20,7 +20,7 @@ const config = {
     "mainCTAButtonText": "Book A Discovery Call",
     "mainCTAButtonURL": "https://calendly.com/ashley-theriserealtygroup/discoverycall",
     "primaryColor": "#b5b8b2",
-    "accentColor": "#d9c6a9"
+    "accentColor": "#ccc0ad"
   },
   "header": {
     "tag": "CASE STUDY",
